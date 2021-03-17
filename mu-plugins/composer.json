@@ -1,0 +1,16 @@
+{
+    "name": "kabita/mu-plugins",
+    "authors": [
+        {
+            "name": "kabitadhimal",
+            "email": "himalisov@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.1"},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/App"
+        }
+    }
+}

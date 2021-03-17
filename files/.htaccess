@@ -1,0 +1,5 @@
+#http://mod-rewrite-cheatsheet.com/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^resized-media/(actual|large|medium|small|thumbnail|p-thumbnail|tiny)/(.*.jpg|JPG|png|gif)$ thumb.php?size=$1&id=$2
+
