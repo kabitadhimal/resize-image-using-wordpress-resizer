@@ -15,7 +15,7 @@
 4. In .htaccess file add the name of the image size to be resized .i.e. resized-media/
     i.e.RewriteRule ^resized-media/(actual|large|medium|small|thumbnail|p-thumbnail|tiny|new-image-size)/(.*.jpg|JPG|png|gif)$ thumb.php?size=$1&id=$2
     The logic here, is when the image with the defined image size is browsed, it goes to the thumb.php and does the resizing job.
-    Thus, resized image is saved in the resized-media folder
+    Thus, resized image is saved in the resized-media folder.
    
 
 
